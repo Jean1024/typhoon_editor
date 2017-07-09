@@ -1,0 +1,29 @@
+@charset "utf-8";
+/* CSS Document */
+*{margin:0;padding:0}
+a{color:#404141;text-decoration:none}
+a img{border:0}
+ul,ol{list-style:none}
+b{font-weight:400}
+table{table-layout:fixed;width:100%;border-collapse:collapse;border-spacing:0}
+img{vertical-align:middle}
+input,button,textarea,select{color:#404141;font:14px/1.5 '\5FAE\8F6F\96C5\9ED1',Arial,Helvetica,sans-serif;vertical-align:middle}
+select{height:30px;border:1px solid #cfcfcf;line-height:30px}
+input[type="radio"],input[type="checkbox"],input[type="submit"],input[type="rest"],input[type="button"],button,select{cursor:pointer}
+input[type="text"],input[type="number"],input[type="tel"],input[type="password"],input[type="submit"],input[type="rest"],input[type="button"],button,textarea{-webkit-border-radius:0;-webkit-appearance:none;-moz-appearance:none}
+body{color:black;font:14px/1.5 '\5FAE\8F6F\96C5\9ED1',Arial,Helvetica,sans-serif;word-wrap:break-word;word-break:break-all;-webkit-text-size-adjust:none}
+.clearfix:after {
+    clear: both;
+    content: " ";
+    display: block;
+    font-size: 0;
+    height: 0;
+    line-height: 0;
+    visibility: hidden;
+}
+.fl{
+  float: left;
+}
+.fr{
+  float: right;
+}
